@@ -26,20 +26,3 @@ The latest version of this plugin is available at:
   http://github.com/ton/vim-bufsurf
 
 Bugs can be reported there as well.
-
-bufsurf allows the user to navigate between buffers in a window based on the
-navigation history. The navigation history is maintained per window / tab.
-You can navigate backwards in history by issuing the command:
-
-  :BufSurfBack
-
-Similarly, to navigate forward in history, issue the command:
-
-  :BufSurfForward
-
-No default keymappings are provided, but can easily be defined by the user.
-For example, to map Control+I to :BufSurfBack, and Control+O to
-:BufSurfForward, include the following lines in your Vim configuration:
-
-  nmap <silent> <C-i> :BufSurfBack<CR>
-  nmap <silent> <C-o> :BufSurfForward<CR>
